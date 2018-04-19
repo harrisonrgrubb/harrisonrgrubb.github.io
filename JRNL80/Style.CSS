@@ -1,0 +1,36 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: auto;
+  max-width: 400px;
+  color: #444;
+}
+
+h1 {
+  font-family: "Helvetica", serif;
+  font-size: 45px;
+  color: maroon;
+}
+
+ul {
+  font-family: "Oxygen", serif;
+  font-size: 15px;
+  color: deepskyblue;
+}
+h3{
+  font-family: "Noto Sans", serif;
+    font-size: 28px;
+  
+}
+
+p {
+  font-family: "Helvetica", serif;
+}
