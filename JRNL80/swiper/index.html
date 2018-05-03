@@ -2,11 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta
-
-charset="utf-8">
-<meta name= “image:Background Image” content=””/>
-
   <title>Swiper demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
@@ -20,10 +15,6 @@ charset="utf-8">
       height: 100%;
     }
     body {
-
-    Background-image:url(‘https://upload.wikimedia.org/wikipedia/commons/f/f7/MS-13_tattoo_2.jpg’);
-  
-    Background-attachment:fixed;
       background: #eee;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
@@ -35,7 +26,6 @@ charset="utf-8">
       width: 100%;
       height: 100%;
     }
-
       .swiper-slide {
         font-size: 18px;
         background: white;
@@ -60,7 +50,9 @@ charset="utf-8">
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><div class="center"><img><img src= "https://upload.wikimedia.org/wikipedia/commons/f/f7/MS-13_tattoo_2.jpg"><h1>MS-13 Continues to Threaten Long Island</h1></div></div>
+      <div class="swiper-slide"><div class="center">
+        <body background= "https://upload.wikimedia.org/wikipedia/commons/f/f7/MS-13_tattoo_2.jpg">
+          <h1>MS-13 Continues to Threaten Long Island</h1></body></div></div>
       <div class="swiper-slide"><div class="center"></div></div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
@@ -74,10 +66,8 @@ charset="utf-8">
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
-
   <!-- Swiper JS -->
   <script src="swiper.min.js"></script>
-
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
